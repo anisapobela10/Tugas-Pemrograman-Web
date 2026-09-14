@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pemutar Media Kuliah Responsif</title>
+  <link rel="stylesheet" href="03-tugas-style.css">
+</head>
+<body>
+
+  <main class="media-card">
+    <!-- Sampul Ilustrasi Gaya Art Direction -->
+    <figure class="media-card__cover">
+      <picture>
+        <!-- Gambar untuk layar lebar / Desktop (min-width: 768px) -->
+        <source media="(min-width: 768px)" srcset="https://picsum.photos/id/180/800/400.webp" type="image/webp">
+        <!-- Gambar WebP default untuk layar sempit / Mobile -->
+        <source srcset="https://picsum.photos/id/180/400/300.webp" type="image/webp">
+        <!-- Fallback img untuk browser yang belum mendukung WebP -->
+        <img src="https://picsum.photos/id/180/800/400.jpg" alt="Ilustrasi Sampul Pemrograman Web" class="media-card__image">
+      </picture>
+    </figure>
+
+    <header class="media-card__header">
+      <h1 class="media-card__title">Pemutar Media Kuliah: Pemrograman Web</h1>
+    </header>
+  </main>
+
+</body>
+</html>
