@@ -1,0 +1,32 @@
+/* Reset Global menggunakan model border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+/* 
+ * Uji Spesifisitas CSS:
+ * Aturan gaya khusus yang menimpa (override) teks deskripsi 
+ * ketika kartu memiliki kelas status tambahan (.media-card--featured)
+ */
+.media-card.media-card--featured .media-card__description {
+  color: #2563eb; /* Warna teks berubah jadi biru tebal */
+  font-weight: 600;
+  background-color: #eff6ff;
+  padding: 8px 12px;
+  border-left: 4px solid #2563eb;
+  border-radius: 4px;
+}
