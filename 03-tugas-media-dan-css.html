@@ -12,18 +12,36 @@
     <!-- Sampul Ilustrasi Gaya Art Direction -->
     <figure class="media-card__cover">
       <picture>
-        <!-- Gambar untuk layar lebar / Desktop (min-width: 768px) -->
         <source media="(min-width: 768px)" srcset="https://picsum.photos/id/180/800/400.webp" type="image/webp">
-        <!-- Gambar WebP default untuk layar sempit / Mobile -->
         <source srcset="https://picsum.photos/id/180/400/300.webp" type="image/webp">
-        <!-- Fallback img untuk browser yang belum mendukung WebP -->
         <img src="https://picsum.photos/id/180/800/400.jpg" alt="Ilustrasi Sampul Pemrograman Web" class="media-card__image">
       </picture>
     </figure>
 
     <header class="media-card__header">
       <h1 class="media-card__title">Pemutar Media Kuliah: Pemrograman Web</h1>
+      <p class="media-card__description">Pelajari konsep dasar media responsif, CSS BEM, dan spesifisitas pada modul praktikum 3.</p>
     </header>
+
+    <!-- Konten Multimedia: Video & Audio -->
+    <section class="media-card__body">
+      <!-- Pemutar Video dengan Poster dan 2 Format Cadangan -->
+      <div class="media-card__video-wrapper">
+        <video controls poster="https://picsum.photos/id/0/600/338" class="media-card__video">
+          <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+          <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.webm" type="video/webm">
+          Browser Anda tidak mendukung elemen video.
+        </video>
+      </div>
+
+      <!-- Pemutar Audio Materi Kuliah -->
+      <div class="media-card__audio-wrapper">
+        <audio controls class="media-card__audio">
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+          Browser Anda tidak mendukung elemen audio.
+        </audio>
+      </div>
+    </section>
   </main>
 
 </body>
