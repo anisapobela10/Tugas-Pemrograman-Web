@@ -95,4 +95,38 @@ body {
   margin-top: 0;
   margin-bottom: 20px;
 }
+/* ======================= PANEL SIDEBAR / ASIDE ======================= */
+.sidebar-panel {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-panel__title {
+  font-size: 1.05rem;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #0b2265;
+}
+
+.sidebar-panel__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-panel__list li {
+  margin-bottom: 8px;
+}
+
+.sidebar-panel__list a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.sidebar-panel__list a:hover {
+  color: #0b2265;
+  text-decoration: underline;
+}
 }
