@@ -52,4 +52,47 @@ body {
     gap: 10px;
     width: 100%;
   }
+  /* ======================= LAYOUT UTAMA (CSS GRID) ======================= */
+/* Mobile-first: default 1 kolom, semua bertumpuk */
+.journal-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "sidebar"
+    "main"
+    "aside";
+  gap: 24px;
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 20px 40px 20px;
+}
+
+.journal-layout__sidebar { grid-area: sidebar; }
+.journal-layout__main    { grid-area: main; }
+.journal-layout__aside   { grid-area: aside; }
+
+/* Tablet (mulai 768px): sidebar + main berdampingan, aside turun ke bawah */
+@media (min-width: 768px) {
+  .journal-layout {
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+      "sidebar main"
+      "aside   aside";
+  }
+}
+
+/* Desktop (mulai 992px): tiga kolom penuh sesuai spesifikasi */
+@media (min-width: 992px) {
+  .journal-layout {
+    grid-template-columns: 200px 1fr 220px;
+    grid-template-areas: "sidebar main aside";
+  }
+}
+
+/* ======================= JUDUL KOLOM TENGAH ======================= */
+.journal-layout__title {
+  color: #0b2265;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 }
