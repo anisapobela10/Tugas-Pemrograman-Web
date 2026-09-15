@@ -1,11 +1,11 @@
-/* ======================= DASAR ======================= */
+/* DASAR */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f6f6;
   color: #1a1a1a;
 }
-/* ======================= NAVIGASI (FLEXBOX MURNI) ======================= */
+/*  NAVIGASI (FLEXBOX MURNI)  */
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@ body {
   }
 }
 
-/* ======================= LAYOUT UTAMA (CSS GRID) ======================= */
+/* LAYOUT UTAMA (CSS GRID)  */
 /* Mobile-first: default 1 kolom, semua bertumpuk */
 .journal-layout {
   display: grid;
@@ -90,13 +90,13 @@ body {
   }
 }
 
-/* ======================= JUDUL KOLOM TENGAH ======================= */
+/*  JUDUL KOLOM TENGAH */
 .journal-layout__title {
   color: #0b2265;
   margin-top: 0;
   margin-bottom: 20px;
 }
-/* ======================= PANEL SIDEBAR / ASIDE ======================= */
+/*  PANEL SIDEBAR / ASIDE  */
 .sidebar-panel {
   background-color: #ffffff;
   border-radius: 8px;
@@ -130,7 +130,7 @@ body {
   color: #0b2265;
   text-decoration: underline;
 }
-/* ======================= GRID MIKRO KARTU ARTIKEL ======================= */
+/*  GRID MIKRO KARTU ARTIKEL */
 .articles-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
