@@ -38,7 +38,6 @@ body {
 .main-nav__menu a:hover {
   text-decoration: underline;
 }
-
 /* Mode ponsel: tautan navigasi merapat vertikal */
 @media (max-width: 576px) {
   .main-nav {
@@ -52,7 +51,9 @@ body {
     gap: 10px;
     width: 100%;
   }
-  /* ======================= LAYOUT UTAMA (CSS GRID) ======================= */
+}
+
+/* ======================= LAYOUT UTAMA (CSS GRID) ======================= */
 /* Mobile-first: default 1 kolom, semua bertumpuk */
 .journal-layout {
   display: grid;
@@ -129,4 +130,9 @@ body {
   color: #0b2265;
   text-decoration: underline;
 }
+/* ======================= GRID MIKRO KARTU ARTIKEL ======================= */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
 }
