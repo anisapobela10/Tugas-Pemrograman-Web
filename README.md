@@ -20,16 +20,10 @@ Repository ini berisi kumpulan tugas mata kuliah **Pemrograman Web**, dikerjakan
 Setiap tugas dikerjakan secara bertahap dengan commit rutin untuk menunjukkan proses pengerjaan secara detail. Namun perlu diperhatikan:
 
 - Pada awalnya, seluruh file tugas berada langsung di root repository (belum dikelompokkan per folder).
-- Setelah tugas selesai, file-file tersebut dirapikan ke dalam folder `Tugas-1`, `Tugas-2`, `Tugas-3`, dan `Tugas-4` menggunakan `git mv`, agar struktur repo lebih terorganisir.
-- Akibatnya, tampilan commit di **halaman folder** GitHub (seperti pada daftar folder di atas) hanya menunjukkan commit terakhir yang memindahkan file ke folder tersebut — bukan seluruh riwayat pengerjaannya.
+- Setelah tugas selesai, file-file tersebut dirapikan ke dalam folder `Tugas-1`, `Tugas-2`, `Tugas-3`, dan `Tugas-4` agar struktur repo lebih terorganisir.
+- Akibatnya, tampilan commit di **halaman folder maupun file individual** di GitHub tidak menampilkan riwayat sebelum pemindahan tersebut — hanya menunjukkan commit sejak file berada di folder saat ini.
 
-**Untuk melihat riwayat commit lengkap tiap tugas**, ada dua cara:
-
-1. **Melalui file individual:**
-   Buka salah satu file di dalam folder tugas → klik tombol **History** (ikon jam di pojok kanan atas halaman file) → seluruh commit yang pernah menyentuh file tersebut akan ditampilkan, termasuk sebelum file dipindahkan ke folder.
-
-2. **Melalui tab Commits di repo:**
-   Buka tab **Commits** pada halaman utama repository untuk melihat seluruh riwayat commit secara kronologis (total 48 commits), termasuk proses pengerjaan setiap tugas sebelum dan sesudah dirapikan ke dalam folder.
+**Untuk melihat riwayat commit lengkap dari awal proses pengerjaan seluruh tugas**, silakan buka tab **Commits** pada halaman utama repository. Di sana tercatat seluruh proses pengerjaan secara kronologis (total 48 commits), mencakup tahap pengerjaan tiap tugas sejak awal (saat masih berada di root repository) hingga proses akhir perapian struktur folder.
 
 ## Catatan
 
