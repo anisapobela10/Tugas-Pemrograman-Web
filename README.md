@@ -23,7 +23,7 @@ Setiap tugas dikerjakan secara bertahap dengan commit rutin untuk menunjukkan pr
 - Setelah tugas selesai, file-file tersebut dirapikan ke dalam folder `Tugas-1`, `Tugas-2`, `Tugas-3`, dan `Tugas-4` agar struktur repo lebih terorganisir.
 - Akibatnya, tampilan commit di **halaman folder maupun file individual** di GitHub tidak menampilkan riwayat sebelum pemindahan tersebut, hanya menunjukkan commit sejak file berada di folder saat ini.
 
-**Untuk melihat riwayat commit lengkap dari awal proses pengerjaan seluruh tugas**, silakan buka tab **Commits** pada halaman utama repository. Di sana tercatat seluruh proses pengerjaan secara kronologis (total 48 commits), mencakup tahap pengerjaan tiap tugas sejak awal (saat masih berada di root repository) hingga proses akhir perapian struktur folder.
+**Untuk melihat riwayat commit lengkap dari awal proses pengerjaan seluruh tugas**, silakan buka tab **Commits** pada halaman utama repository. Di sana tercatat seluruh proses pengerjaan secara kronologis (total sekitar 50 commits), mencakup tahap pengerjaan tiap tugas sejak awal (saat masih berada di root repository) hingga proses akhir perapian struktur folder.
 
 ## Catatan
 
