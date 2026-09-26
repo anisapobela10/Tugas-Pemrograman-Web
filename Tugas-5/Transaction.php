@@ -20,7 +20,6 @@ class Transaction
 
         }
 
-
         if(!isset($_SESSION['balance'])){
 
             $_SESSION['balance'] = 0;

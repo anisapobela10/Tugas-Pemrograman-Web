@@ -72,7 +72,7 @@ if(!is_numeric($amount) || $amount <= 0){
 <head>
 
 <title>
-Finance System
+    Finance System
 </title>
 
 </head>
@@ -82,12 +82,12 @@ Finance System
 
 
 <h2>
-Sistem Manajemen Keuangan
+    Sistem Manajemen Keuangan
 </h2>
 
 
 <p>
-<?= htmlspecialchars($message) ?>
+    <?= htmlspecialchars($message) ?>
 </p>
 
 
@@ -97,12 +97,12 @@ Sistem Manajemen Keuangan
 <select name="type">
 
 <option value="deposit">
-Deposit
+    Deposit
 </option>
 
 
 <option value="withdraw">
-Withdraw
+    Withdraw
 </option>
 
 </select>
@@ -112,17 +112,16 @@ Withdraw
 
 
 <input
-type="hidden"
-name="csrf_token"
-value="<?= htmlspecialchars($_SESSION['csrf_token']) ?>"
+    type="hidden"
+    name="csrf_token"
+    value="<?= htmlspecialchars($_SESSION['csrf_token']) ?>"
 >
 
 
 <br><br>
 
-
 <button>
-Submit
+    Submit
 </button>
 
 
