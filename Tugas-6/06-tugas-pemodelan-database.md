@@ -230,7 +230,6 @@ Atribut:
 - alamat_penerbit
 - no_telepon
 
-
 ### Tabel Buku
 
 Atribut:
