@@ -242,7 +242,6 @@ Atribut:
 - stok
 - id_penerbit (Foreign Key)
 
-
 ### Tabel Transaksi_Peminjaman
 
 Atribut:
