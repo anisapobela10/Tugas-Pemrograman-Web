@@ -38,6 +38,25 @@ class GuestBook {
     ]);
 
 }
+    public function tampilPesan()
+{
+
+    $sql = "
+    SELECT *
+    FROM buku_tamu
+    ORDER BY tanggal_kirim DESC
+    ";
+
+
+    $stmt = $this->pdo->prepare($sql);
+
+
+    $stmt->execute();
+
+
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+}
 
 }
 
