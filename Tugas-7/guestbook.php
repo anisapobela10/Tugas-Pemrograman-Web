@@ -55,10 +55,8 @@ $error="";
 if($_SERVER["REQUEST_METHOD"]=="POST"){
 
 
-
-    // ==========================
     // Validasi CSRF Token
-    // ==========================
+
 
     if(
         !isset($_POST["csrf_token"]) ||
@@ -84,11 +82,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     trim($_POST["pesan"]);
 
 
-
-
-    // ==========================
     // Validasi Input
-    // ==========================
 
     if(empty($nama)){
 
